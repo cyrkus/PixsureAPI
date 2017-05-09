@@ -2,15 +2,15 @@
   "autoPin": true,
   "pins": [
     {
+      "package": "BSON",
+      "reason": null,
+      "repositoryURL": "https://github.com/OpenKitten/BSON.git",
+      "version": "3.7.2"
+    },
+    {
       "package": "CLibreSSL",
       "reason": null,
       "repositoryURL": "https://github.com/vapor/clibressl.git",
-      "version": "1.0.0"
-    },
-    {
-      "package": "CPostgreSQL",
-      "reason": null,
-      "repositoryURL": "https://github.com/vapor/cpostgresql.git",
       "version": "1.0.0"
     },
     {
@@ -44,10 +44,10 @@
       "version": "1.4.3"
     },
     {
-      "package": "FluentPostgreSQL",
+      "package": "FluentMongo",
       "reason": null,
-      "repositoryURL": "https://github.com/vapor/postgresql-driver.git",
-      "version": "1.1.0"
+      "repositoryURL": "https://github.com/vapor/mongo-driver.git",
+      "version": "1.0.9"
     },
     {
       "package": "JSON",
@@ -66,6 +66,12 @@
       "reason": null,
       "repositoryURL": "https://github.com/vapor/leaf.git",
       "version": "1.0.7"
+    },
+    {
+      "package": "MongoKitten",
+      "reason": null,
+      "repositoryURL": "https://github.com/OpenKitten/MongoKitten.git",
+      "version": "1.7.4"
     },
     {
       "package": "Multipart",
@@ -90,12 +96,6 @@
       "reason": null,
       "repositoryURL": "https://github.com/vapor/polymorphic.git",
       "version": "1.0.1"
-    },
-    {
-      "package": "PostgreSQL",
-      "reason": null,
-      "repositoryURL": "https://github.com/vapor/postgresql.git",
-      "version": "1.1.0"
     },
     {
       "package": "Routing",
@@ -128,10 +128,10 @@
       "version": "1.5.15"
     },
     {
-      "package": "VaporPostgreSQL",
+      "package": "VaporMongo",
       "reason": null,
-      "repositoryURL": "https://github.com/vapor/postgresql-provider",
-      "version": "1.0.0"
+      "repositoryURL": "https://github.com/vapor/mongo-provider.git",
+      "version": "1.1.0"
     }
   ],
   "version": 1

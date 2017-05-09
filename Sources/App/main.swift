@@ -1,8 +1,10 @@
 import Vapor
+import VaporMongo
 
 let drop = Droplet()
 
-drop.get { req in
+try drop.addProvider(VaporMongo.Provider.self)
+
 drop.resource("posts", PostController())
 
 drop.run()
