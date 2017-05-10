@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1535"
+               BlueprintIdentifier = "OBJ_1557"
                BuildableName = "libc.framework"
                BlueprintName = "libc"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1542"
+               BlueprintIdentifier = "OBJ_1564"
                BuildableName = "Core.framework"
                BlueprintName = "Core"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_1579"
+               BlueprintIdentifier = "OBJ_1601"
                BuildableName = "CLibreSSL.framework"
                BlueprintName = "CLibreSSL"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2202"
+               BlueprintIdentifier = "OBJ_2224"
                BuildableName = "Cipher.framework"
                BlueprintName = "Cipher"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2219"
+               BlueprintIdentifier = "OBJ_2241"
                BuildableName = "HMAC.framework"
                BlueprintName = "HMAC"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2218"
+               BlueprintIdentifier = "OBJ_2240"
                BuildableName = "Essentials.framework"
                BlueprintName = "Essentials"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2237"
+               BlueprintIdentifier = "OBJ_2259"
                BuildableName = "Random.framework"
                BlueprintName = "Random"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2268"
+               BlueprintIdentifier = "OBJ_2290"
                BuildableName = "BCrypt.framework"
                BlueprintName = "BCrypt"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2286"
+               BlueprintIdentifier = "OBJ_2308"
                BuildableName = "Hash.framework"
                BlueprintName = "Hash"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -140,7 +140,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2305"
+               BlueprintIdentifier = "OBJ_2327"
                BuildableName = "PathIndexable.framework"
                BlueprintName = "PathIndexable"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -154,7 +154,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2313"
+               BlueprintIdentifier = "OBJ_2335"
                BuildableName = "Polymorphic.framework"
                BlueprintName = "Polymorphic"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -168,7 +168,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2321"
+               BlueprintIdentifier = "OBJ_2343"
                BuildableName = "Node.framework"
                BlueprintName = "Node"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -182,7 +182,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2353"
+               BlueprintIdentifier = "OBJ_2375"
                BuildableName = "Fluent.framework"
                BlueprintName = "Fluent"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -196,7 +196,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2400"
+               BlueprintIdentifier = "OBJ_2422"
                BuildableName = "FluentTester.framework"
                BlueprintName = "FluentTester"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -210,7 +210,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2422"
+               BlueprintIdentifier = "OBJ_2444"
                BuildableName = "Socks.framework"
                BlueprintName = "Socks"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -224,7 +224,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2435"
+               BlueprintIdentifier = "OBJ_2457"
                BuildableName = "SocksCore.framework"
                BlueprintName = "SocksCore"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -238,7 +238,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2456"
+               BlueprintIdentifier = "OBJ_2478"
                BuildableName = "TLS.framework"
                BlueprintName = "TLS"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -252,7 +252,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2479"
+               BlueprintIdentifier = "OBJ_2501"
                BuildableName = "SMTP.framework"
                BlueprintName = "SMTP"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -266,7 +266,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2533"
+               BlueprintIdentifier = "OBJ_2555"
                BuildableName = "HTTP.framework"
                BlueprintName = "HTTP"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -280,7 +280,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2604"
+               BlueprintIdentifier = "OBJ_2626"
                BuildableName = "URI.framework"
                BlueprintName = "URI"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -294,7 +294,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2645"
+               BlueprintIdentifier = "OBJ_2667"
                BuildableName = "WebSockets.framework"
                BlueprintName = "WebSockets"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -308,7 +308,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2532"
+               BlueprintIdentifier = "OBJ_2554"
                BuildableName = "Transport.framework"
                BlueprintName = "Transport"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -322,7 +322,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2733"
+               BlueprintIdentifier = "OBJ_2755"
                BuildableName = "Console.framework"
                BlueprintName = "Console"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -336,7 +336,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2779"
+               BlueprintIdentifier = "OBJ_2801"
                BuildableName = "Jay.framework"
                BlueprintName = "Jay"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -350,7 +350,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2806"
+               BlueprintIdentifier = "OBJ_2828"
                BuildableName = "JSON.framework"
                BlueprintName = "JSON"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -364,7 +364,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2833"
+               BlueprintIdentifier = "OBJ_2855"
                BuildableName = "TurnstileWeb.framework"
                BlueprintName = "TurnstileWeb"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -378,7 +378,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2854"
+               BlueprintIdentifier = "OBJ_2876"
                BuildableName = "TurnstileCrypto.framework"
                BlueprintName = "TurnstileCrypto"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -392,7 +392,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2856"
+               BlueprintIdentifier = "OBJ_2878"
                BuildableName = "Turnstile.framework"
                BlueprintName = "Turnstile"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -406,7 +406,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2885"
+               BlueprintIdentifier = "OBJ_2907"
                BuildableName = "Leaf.framework"
                BlueprintName = "Leaf"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -420,7 +420,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2935"
+               BlueprintIdentifier = "OBJ_2957"
                BuildableName = "HTTPRouting.framework"
                BlueprintName = "HTTPRouting"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -434,7 +434,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2989"
+               BlueprintIdentifier = "OBJ_3011"
                BuildableName = "TypeSafeRouting.framework"
                BlueprintName = "TypeSafeRouting"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -448,7 +448,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_2988"
+               BlueprintIdentifier = "OBJ_3010"
                BuildableName = "Routing.framework"
                BlueprintName = "Routing"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -462,7 +462,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3098"
+               BlueprintIdentifier = "OBJ_3120"
                BuildableName = "Multipart.framework"
                BlueprintName = "Multipart"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -476,7 +476,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3144"
+               BlueprintIdentifier = "OBJ_3166"
                BuildableName = "FormData.framework"
                BlueprintName = "FormData"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -490,7 +490,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3190"
+               BlueprintIdentifier = "OBJ_3212"
                BuildableName = "Auth.framework"
                BlueprintName = "Auth"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -504,7 +504,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3282"
+               BlueprintIdentifier = "OBJ_3304"
                BuildableName = "Cookies.framework"
                BlueprintName = "Cookies"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -518,7 +518,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3369"
+               BlueprintIdentifier = "OBJ_3391"
                BuildableName = "Sessions.framework"
                BlueprintName = "Sessions"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -532,7 +532,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3451"
+               BlueprintIdentifier = "OBJ_3473"
                BuildableName = "Settings.framework"
                BlueprintName = "Settings"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -546,7 +546,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3535"
+               BlueprintIdentifier = "OBJ_3557"
                BuildableName = "Vapor.framework"
                BlueprintName = "Vapor"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -560,7 +560,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3284"
+               BlueprintIdentifier = "OBJ_3306"
                BuildableName = "Cache.framework"
                BlueprintName = "Cache"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -574,7 +574,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3787"
+               BlueprintIdentifier = "OBJ_3809"
                BuildableName = "BSON.framework"
                BlueprintName = "BSON"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -588,7 +588,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3813"
+               BlueprintIdentifier = "OBJ_3835"
                BuildableName = "MongoMD5.framework"
                BlueprintName = "MongoMD5"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -602,7 +602,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3829"
+               BlueprintIdentifier = "OBJ_3851"
                BuildableName = "MongoSCRAM.framework"
                BlueprintName = "MongoSCRAM"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -616,7 +616,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3847"
+               BlueprintIdentifier = "OBJ_3869"
                BuildableName = "MongoHMAC.framework"
                BlueprintName = "MongoHMAC"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -630,7 +630,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3864"
+               BlueprintIdentifier = "OBJ_3886"
                BuildableName = "MongoSHA1.framework"
                BlueprintName = "MongoSHA1"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -644,7 +644,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3879"
+               BlueprintIdentifier = "OBJ_3901"
                BuildableName = "MongoKitten.framework"
                BlueprintName = "MongoKitten"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -658,7 +658,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3828"
+               BlueprintIdentifier = "OBJ_3850"
                BuildableName = "MongoCryptoEssentials.framework"
                BlueprintName = "MongoCryptoEssentials"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -672,7 +672,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3849"
+               BlueprintIdentifier = "OBJ_3871"
                BuildableName = "MongoPBKDF2.framework"
                BlueprintName = "MongoPBKDF2"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -686,7 +686,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3966"
+               BlueprintIdentifier = "OBJ_3988"
                BuildableName = "FluentMongo.framework"
                BlueprintName = "FluentMongo"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -700,7 +700,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_4008"
+               BlueprintIdentifier = "OBJ_4030"
                BuildableName = "VaporMongo.framework"
                BlueprintName = "VaporMongo"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -714,7 +714,63 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_4113"
+               BlueprintIdentifier = "OBJ_4135"
+               BuildableName = "AWSSignatureV4.framework"
+               BlueprintName = "AWSSignatureV4"
+               ReferencedContainer = "container:OnYourFeet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_4184"
+               BuildableName = "AWS.framework"
+               BlueprintName = "AWS"
+               ReferencedContainer = "container:OnYourFeet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_4232"
+               BuildableName = "S3.framework"
+               BlueprintName = "S3"
+               ReferencedContainer = "container:OnYourFeet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_4230"
+               BuildableName = "EC2.framework"
+               BlueprintName = "EC2"
+               ReferencedContainer = "container:OnYourFeet.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_4317"
                BuildableName = "App"
                BlueprintName = "App"
                ReferencedContainer = "container:OnYourFeet.xcodeproj">
@@ -745,7 +801,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_1535"
+            BlueprintIdentifier = "OBJ_1557"
             BuildableName = "libc.framework"
             BlueprintName = "libc"
             ReferencedContainer = "container:OnYourFeet.xcodeproj">

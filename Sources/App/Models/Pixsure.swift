@@ -42,11 +42,17 @@ struct HotSpots: Model {
   var id: Node?
   var topLeft: Location
   var topRight: Location
+  var botLeft: Location
+  var botMid: Location
+  var botRight: Location
   
   init(node: Node, in context: Context) throws {
     id = try node.extract("id")
     topLeft = try node.extract(HotSpotLocation.topLeft.rawValue)
     topRight = try node.extract(HotSpotLocation.topRight.rawValue)
+    botLeft = try node.extract(HotSpotLocation.botLeft.rawValue)
+    botMid = try node.extract(HotSpotLocation.botMid.rawValue)
+    botRight = try node.extract(HotSpotLocation.botRight.rawValue)
   }
   
   static func prepare(_ database: Database) throws {}
@@ -54,7 +60,10 @@ struct HotSpots: Model {
   
   func makeNode(context: Context) throws -> Node {
     return try Node(node: [HotSpotLocation.topLeft.rawValue: topLeft.makeNode(),
-                           HotSpotLocation.topRight.rawValue: topRight.makeNode()])
+                           HotSpotLocation.topRight.rawValue: topRight.makeNode(),
+                           HotSpotLocation.botLeft.rawValue: botLeft.makeNode(),
+                           HotSpotLocation.botMid.rawValue: botMid.makeNode(),
+                           HotSpotLocation.botRight.rawValue: botRight.makeNode()])
   }
   
   static func revert(_ database: Database) throws {}

@@ -2,6 +2,12 @@
   "autoPin": true,
   "pins": [
     {
+      "package": "AWS",
+      "reason": null,
+      "repositoryURL": "https://github.com/nodes-vapor/aws.git",
+      "version": "0.1.0"
+    },
+    {
       "package": "BSON",
       "reason": null,
       "repositoryURL": "https://github.com/OpenKitten/BSON.git",
