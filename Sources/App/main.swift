@@ -2,7 +2,6 @@ import Vapor
 import VaporMongo
 
 let drop = Droplet()
-
 drop.preparations.append(Pixsure.self)
 
 do {
@@ -14,14 +13,12 @@ do {
 
 //MARK: GET
 drop.get("pixsures") { req in
-  let pixsures = try Pixsure
-    .all()
-    .makeNode()
+  let pixsures = try Pixsure.all()
+  let pixsureNode = try pixsures.makeNode()
   
-  let nodeDict = ["pixsures": pixsures]
+  let nodeDict = ["pixsures": pixsureNode]
   return try JSON(node: nodeDict)
 }
-
 
 drop.post("pixsure") { req in
   var pixsure = try Pixsure(node: req.json)
