@@ -1,0 +1,218 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++A9E1025" : 9223372036854775807,
+    "07D38DC615E8ADA07E68B7DA8DD8A2654638A334+++FC8BFE7" : 9223372036854775807,
+    "748C9296F4CFA6FB6918A0C73ECFD0DCCA1E2109+++EC4BF2F" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2EFE2CB" : 9223372036854775807,
+    "65880DAFEE5F57D1D1C181560E763EECFD96B06D+++2527157" : 9223372036854775807,
+    "6400345F86F53D4096DD633F09AAE772FA6A202B+++3CFAD91" : 9223372036854775807,
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC+++D3552AE" : 9223372036854775807,
+    "9D593077127927B16A2AFDAF369C35CBF2F2669C+++FD73D89" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++D90D873" : 9223372036854775807,
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++879E56C" : 9223372036854775807,
+    "CADB2473D823C4B67E031AA19BD5C58C5C0C5C2C+++6F761CC" : 9223372036854775807,
+    "6D09577DC770D433CEBE622BD4B45C8CF6CB8CCC+++7860DB0" : 9223372036854775807,
+    "0A000D15E5D587E98AA6062DC3514BBD1EE82D08+++3F47E7F" : 9223372036854775807,
+    "013355313FF9FF2B55EA1241A5D12353638D9AC3+++60726BA" : 9223372036854775807,
+    "19278C05F991845F9DC0A319D6F77B1D93D9A83E+++ECC3086" : 9223372036854775807,
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++8832F0F" : 9223372036854775807,
+    "D81F653129D614C7585FD79F985702AFD09DBE56+++E7CA35E" : 9223372036854775807,
+    "9948E95A70F754B78E92114BF205DC946294AF5D+++EB497A4" : 9223372036854775807,
+    "6F592973CDAFC6396CA0DD0B7DAC14E5B55161D2+++A52104C" : 9223372036854775807,
+    "9C479842BAB37E5A02B52F0D8BB690041F1A927F+++284A1EA" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++73927DD" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++1DFDEBE" : 9223372036854775807,
+    "789252EF81C502A43EF1153AAFB885D64C59FEBD+++1D048BD" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++3EBF5AB" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2BC16CC" : 9223372036854775807,
+    "BB6059597ED233770EB070B23F7A260DF184AEBC+++18D8BD4" : 9223372036854775807,
+    "686ABC7D4D16AC8C2BF9FA66CA941F6EB6F984F7+++3539382" : 9223372036854775807,
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9E9BB2F" : 9223372036854775807,
+    "7E7C1062562B886ABFA1C65C1E929E1339657116+++AD0D8F1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7F1CB89D-C52D-40CD-B31D-F6282D12E6F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++A9E1025" : "OnYourFeet\/.build\/checkouts\/path-indexable.git-6101080875983074629\/",
+    "07D38DC615E8ADA07E68B7DA8DD8A2654638A334+++FC8BFE7" : "OnYourFeet\/.build\/checkouts\/crypto.git-7980259129511365902\/",
+    "748C9296F4CFA6FB6918A0C73ECFD0DCCA1E2109+++EC4BF2F" : "OnYourFeet\/.build\/checkouts\/console.git--2431895819212044213\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2EFE2CB" : "OnYourFeet\/.build\/checkouts\/engine.git-3311994267206676365\/",
+    "65880DAFEE5F57D1D1C181560E763EECFD96B06D+++2527157" : "OnYourFeet\/.build\/checkouts\/fluent.git-6251908308727715749\/",
+    "6400345F86F53D4096DD633F09AAE772FA6A202B+++3CFAD91" : "OnYourFeet\/.build\/checkouts\/leaf.git-9164445114487378533\/",
+    "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC+++D3552AE" : "OnYourFeet\/.build\/checkouts\/Jay.git--595626396716718175\/",
+    "9D593077127927B16A2AFDAF369C35CBF2F2669C+++FD73D89" : "OnYourFeet\/.build\/checkouts\/postgresql-driver.git-1390385983276277199\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++D90D873" : "OnYourFeet\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++879E56C" : "OnYourFeet\/.build\/checkouts\/path-indexable.git-6101080875983074629\/",
+    "CADB2473D823C4B67E031AA19BD5C58C5C0C5C2C+++6F761CC" : "OnYourFeet\/.build\/checkouts\/multipart.git-4210556629793786970\/",
+    "6D09577DC770D433CEBE622BD4B45C8CF6CB8CCC+++7860DB0" : "OnYourFeet\/.build\/checkouts\/polymorphic.git--4354167031091999056\/",
+    "0A000D15E5D587E98AA6062DC3514BBD1EE82D08+++3F47E7F" : "OnYourFeet\/.build\/checkouts\/postgresql-provider--8238225841508410504\/",
+    "013355313FF9FF2B55EA1241A5D12353638D9AC3+++60726BA" : "OnYourFeet\/.build\/checkouts\/tls.git-2678149690400510061\/",
+    "19278C05F991845F9DC0A319D6F77B1D93D9A83E+++ECC3086" : "OnYourFeet\/.build\/checkouts\/mongo-provider.git-3889432062388704695\/",
+    "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++8832F0F" : "OnYourFeet\/.build\/checkouts\/node.git-9175390252000121167\/",
+    "D81F653129D614C7585FD79F985702AFD09DBE56+++E7CA35E" : "OnYourFeet\/.build\/checkouts\/postgresql.git-5650722971996441103\/",
+    "9948E95A70F754B78E92114BF205DC946294AF5D+++EB497A4" : "OnYourFeet\/.build\/checkouts\/json.git-9153249592855998091\/",
+    "6F592973CDAFC6396CA0DD0B7DAC14E5B55161D2+++A52104C" : "OnYourFeet\/.build\/checkouts\/MongoKitten.git--6244548337864045047\/",
+    "9C479842BAB37E5A02B52F0D8BB690041F1A927F+++284A1EA" : "OnYourFeet\/.build\/checkouts\/socks.git--8001262774462276871\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++73927DD" : "OnYourFeet\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++1DFDEBE" : "OnYourFeet\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "789252EF81C502A43EF1153AAFB885D64C59FEBD+++1D048BD" : "OnYourFeet\/.build\/checkouts\/clibressl.git-4924093653370840509\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++3EBF5AB" : "OnYourFeet\/.build\/checkouts\/vapor.git-5492988889259800272\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2BC16CC" : "OnYourFeet\/.build\/checkouts\/routing.git-5366657101075133678\/",
+    "BB6059597ED233770EB070B23F7A260DF184AEBC+++18D8BD4" : "OnYourFeet\/.build\/checkouts\/mongo-driver.git-8048380255664029588\/",
+    "686ABC7D4D16AC8C2BF9FA66CA941F6EB6F984F7+++3539382" : "OnYourFeet\/.build\/checkouts\/BSON.git--1864673809949788219\/",
+    "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9E9BB2F" : "OnYourFeet\/.build\/checkouts\/core.git-9210800844849382486\/",
+    "7E7C1062562B886ABFA1C65C1E929E1339657116+++AD0D8F1" : "OnYourFeet\/.build\/checkouts\/Turnstile.git-2443676010155639616\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OnYourFeet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OnYourFeet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/tls.git-2678149690400510061",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "013355313FF9FF2B55EA1241A5D12353638D9AC3+++60726BA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/crypto.git-7980259129511365902",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07D38DC615E8ADA07E68B7DA8DD8A2654638A334+++FC8BFE7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/postgresql-provider--8238225841508410504",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A000D15E5D587E98AA6062DC3514BBD1EE82D08+++3F47E7F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/mongo-provider.git-3889432062388704695",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "19278C05F991845F9DC0A319D6F77B1D93D9A83E+++ECC3086"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/routing.git-5366657101075133678",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++1DFDEBE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/routing.git-5366657101075133678",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2BC16CC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/engine.git-3311994267206676365",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2EFE2CB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/vapor.git-5492988889259800272",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++3EBF5AB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/core.git-9210800844849382486",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++73927DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/core.git-9210800844849382486",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9E9BB2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/engine.git-3311994267206676365",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++D90D873"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/leaf.git-9164445114487378533",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6400345F86F53D4096DD633F09AAE772FA6A202B+++3CFAD91"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/fluent.git-6251908308727715749",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "65880DAFEE5F57D1D1C181560E763EECFD96B06D+++2527157"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/BSON.git--1864673809949788219",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "686ABC7D4D16AC8C2BF9FA66CA941F6EB6F984F7+++3539382"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/polymorphic.git--4354167031091999056",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6D09577DC770D433CEBE622BD4B45C8CF6CB8CCC+++7860DB0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/MongoKitten.git--6244548337864045047",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F592973CDAFC6396CA0DD0B7DAC14E5B55161D2+++A52104C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/console.git--2431895819212044213",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "748C9296F4CFA6FB6918A0C73ECFD0DCCA1E2109+++EC4BF2F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/clibressl.git-4924093653370840509",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "789252EF81C502A43EF1153AAFB885D64C59FEBD+++1D048BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/Turnstile.git-2443676010155639616",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E7C1062562B886ABFA1C65C1E929E1339657116+++AD0D8F1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/Jay.git--595626396716718175",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC+++D3552AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/json.git-9153249592855998091",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9948E95A70F754B78E92114BF205DC946294AF5D+++EB497A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/socks.git--8001262774462276871",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C479842BAB37E5A02B52F0D8BB690041F1A927F+++284A1EA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/postgresql-driver.git-1390385983276277199",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D593077127927B16A2AFDAF369C35CBF2F2669C+++FD73D89"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/mongo-driver.git-8048380255664029588",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB6059597ED233770EB070B23F7A260DF184AEBC+++18D8BD4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/multipart.git-4210556629793786970",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CADB2473D823C4B67E031AA19BD5C58C5C0C5C2C+++6F761CC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/postgresql.git-5650722971996441103",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D81F653129D614C7585FD79F985702AFD09DBE56+++E7CA35E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/path-indexable.git-6101080875983074629",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++879E56C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/node.git-9175390252000121167",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++8832F0F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/node.git-9175390252000121167",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE0211841CDBC942EFB5905580DF4AA57B5992F6+++A9E1025"
+    }
+  ]
+}
