@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AF92CF47BF05DD8220DE54A8F968BD2144A9A5E7+++F5C23ED",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -29,6 +30,7 @@
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++3EBF5AB" : 9223372036854775807,
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2BC16CC" : 9223372036854775807,
     "BB6059597ED233770EB070B23F7A260DF184AEBC+++18D8BD4" : 9223372036854775807,
+    "AF92CF47BF05DD8220DE54A8F968BD2144A9A5E7+++F5C23ED" : 9223372036854775807,
     "686ABC7D4D16AC8C2BF9FA66CA941F6EB6F984F7+++3539382" : 9223372036854775807,
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9E9BB2F" : 9223372036854775807,
     "7E7C1062562B886ABFA1C65C1E929E1339657116+++AD0D8F1" : 9223372036854775807
@@ -61,6 +63,7 @@
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++3EBF5AB" : "OnYourFeet\/.build\/checkouts\/vapor.git-5492988889259800272\/",
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++2BC16CC" : "OnYourFeet\/.build\/checkouts\/routing.git-5366657101075133678\/",
     "BB6059597ED233770EB070B23F7A260DF184AEBC+++18D8BD4" : "OnYourFeet\/.build\/checkouts\/mongo-driver.git-8048380255664029588\/",
+    "AF92CF47BF05DD8220DE54A8F968BD2144A9A5E7+++F5C23ED" : "OnYourFeet\/",
     "686ABC7D4D16AC8C2BF9FA66CA941F6EB6F984F7+++3539382" : "OnYourFeet\/.build\/checkouts\/BSON.git--1864673809949788219\/",
     "52AFDBC9624F22D94526E36BBEE271C6D7FC65D3+++9E9BB2F" : "OnYourFeet\/.build\/checkouts\/core.git-9210800844849382486\/",
     "7E7C1062562B886ABFA1C65C1E929E1339657116+++AD0D8F1" : "OnYourFeet\/.build\/checkouts\/Turnstile.git-2443676010155639616\/"
@@ -183,6 +186,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/postgresql-driver.git-1390385983276277199",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D593077127927B16A2AFDAF369C35CBF2F2669C+++FD73D89"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sevenapps\/PixsureAPI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF92CF47BF05DD8220DE54A8F968BD2144A9A5E7+++F5C23ED"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/abikis\/Development\/7apps\/Servers\/OnYourFeet\/.build\/repositories\/mongo-driver.git-8048380255664029588",
