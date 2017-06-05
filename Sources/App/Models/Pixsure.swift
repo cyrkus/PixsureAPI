@@ -4,32 +4,44 @@ import Vapor
 struct Pixsure: Model {
   var exists: Bool = false
   var id: Node?
+  var pixsureID: String
   var modificationDate: String
   var cards: [Card]
   
   init(node: Node, in context: Context) throws {
-    id = try node.extract("id")
-    modificationDate = try node.extract("modificationDate")
-    do {
-    cards = try node.extract("cards")
-    } catch {
-      fatalError(error.localizedDescription)
-    }
+    self.id = try node.extract(Constants.id)
+    guard let pixsure = try node.nodeObject?.makeNode() else { throw NodeError.unableToConvert(node: node, expected: "pixsure") } // set up pixsure
+    
+    guard let pixsureID = pixsure[Constants.pixsureID]?.string,
+      let modDate = pixsure[Constants.modDate]?.string else { throw NodeError.unableToConvert(node: node, expected: Constants.modDate) } // set the modification date
+    self.modificationDate = modDate
+    self.pixsureID = pixsureID
+    
+    guard let cardArray = pixsure[Constants.cards]?.nodeArray else { throw NodeError.unableToConvert(node: node, expected: "card") }
+    var cards = [Card]()
+    cardArray.forEach({
+      do {
+        cards.append(try Card(node: $0.makeNode(), in: context))
+      } catch {
+        print("can't even card")
+      }
+    })
+    self.cards = cards
   }
   
   static func prepare(_ database: Database) throws {}
   
   func makeNode(context: Context) throws -> Node {
-    return try Node(node: ["id": id,
-                           "modificationDate": modificationDate,
-                           "cards": cards.makeNode()])
+    return try Node(node: [Constants.id: id,
+                           Constants.modDate: modificationDate,
+                           Constants.cards: cards.makeNode(),
+                           Constants.pixsureID: pixsureID])
   }
   
   static func revert(_ database: Database) throws {
     try database.delete("pixsure")
   }
 }
-
 
 
 struct Card: Model {
@@ -46,10 +58,10 @@ struct Card: Model {
   }
   
   init(node: Node, in context: Context) throws {
-      id = try node.extract("id")
-      modificationDate = try node.extract("modificationDate")
-      imageURL = try node.extract("imageURL")
-      hotSpots = try node.extract("hotSpots")
+    id = try node.extract("id")
+    modificationDate = try node.extract(Constants.modDate)
+    imageURL = try node.extract(Constants.imageURL)
+    hotSpots = try node.extract(Constants.hotspots)
   }
   
   static func prepare(_ database: Database) throws {
@@ -58,9 +70,9 @@ struct Card: Model {
   
   func makeNode(context: Context) throws -> Node {
     return try Node(node: ["id": id,
-                           "modificationDate": modificationDate,
-                           "imageURL": imageURL,
-                           "hotSpots": hotSpots.makeNode()])
+                           Constants.modDate: modificationDate,
+                           Constants.imageURL: imageURL,
+                           Constants.hotspots: hotSpots.makeNode()])
   }
   
   static func revert(_ database: Database) throws {
@@ -86,7 +98,7 @@ struct HotSpots: Model {
   }
   
   static func prepare(_ database: Database) throws {}
-
+  
   
   func makeNode(context: Context) throws -> Node {
     return try Node(node: ["id": id,

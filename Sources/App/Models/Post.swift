@@ -2,7 +2,7 @@ import Vapor
 import Fluent
 import Foundation
 
-final class Post: Model {
+final class Post: Model { 
     var id: Node?
     var content: String
     

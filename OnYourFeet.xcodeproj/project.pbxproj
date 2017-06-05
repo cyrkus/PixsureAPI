@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14E749B1EE605E9003576CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E749A1EE605E9003576CB /* Constants.swift */; };
+		A14E749C1EE60686003576CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E749A1EE605E9003576CB /* Constants.swift */; };
 		OBJ_1562 /* libc.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1469 /* libc.swift */; };
 		OBJ_1569 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1471 /* Array.swift */; };
 		OBJ_1570 /* Bool+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_1472 /* Bool+String.swift */; };
@@ -6526,6 +6528,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A14E749A1EE605E9003576CB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		OBJ_100 /* Document+DeveloperSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Document+DeveloperSupport.swift"; sourceTree = "<group>"; };
 		OBJ_1000 /* ec_pmeth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_pmeth.c; sourceTree = "<group>"; };
 		OBJ_1001 /* ec_print.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ec_print.c; sourceTree = "<group>"; };
@@ -8961,6 +8964,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* Pixsure.swift */,
+				A14E749A1EE605E9003576CB /* Constants.swift */,
 				OBJ_14 /* Post.swift */,
 			);
 			path = Models;
@@ -10318,7 +10322,7 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -10331,7 +10335,6 @@
 				OBJ_20 /* Dependencies */,
 				OBJ_1501 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_50 /* MongoMD5 */ = {
@@ -13460,7 +13463,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_1501 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -13541,6 +13544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A14E749B1EE605E9003576CB /* Constants.swift in Sources */,
 				OBJ_1562 /* libc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -15140,6 +15144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A14E749C1EE60686003576CB /* Constants.swift in Sources */,
 				OBJ_4322 /* main.swift in Sources */,
 				OBJ_4323 /* PostController.swift in Sources */,
 				OBJ_4324 /* Pixsure.swift in Sources */,

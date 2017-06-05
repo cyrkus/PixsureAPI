@@ -13,13 +13,13 @@ do {
 
 
 //MARK: GET
-drop.get("pixsure") { req in
-  let pixsures = try Pixsure.all()
-  let pixsureNode = try pixsures.makeNode()
+
+drop.get(Constants.pixsures, String.self) { req, pixsureID in
+  let pixsureNode = try Pixsure.query().filter(Constants.pixsureID, pixsureID)
   
-  let nodeDict = ["pixsure": pixsureNode]
-  return try JSON(node: nodeDict)
+  return try JSON(node: pixsureNode.first())
 }
+
 
 drop.post("pixsure") { req in
   var pixsure = try Pixsure(node: req.json)
@@ -27,12 +27,15 @@ drop.post("pixsure") { req in
   return try pixsure.makeJSON()
 }
 
+
 drop.post("card") { req in
   var card = try Card(node: req.json)
   try card.save()
   return try card.makeJSON()
 }
-  
+
+
 drop.resource("posts", PostController())
-  
+
+
 drop.run()
