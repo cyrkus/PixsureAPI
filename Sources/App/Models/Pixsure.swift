@@ -5,6 +5,37 @@ struct Pixsure: Model {
   var exists: Bool = false
   var id: Node?
   var modificationDate: String
+  var cards: [Card]
+  
+  init(node: Node, in context: Context) throws {
+    id = try node.extract("id")
+    modificationDate = try node.extract("modificationDate")
+    do {
+    cards = try node.extract("cards")
+    } catch {
+      fatalError(error.localizedDescription)
+    }
+  }
+  
+  static func prepare(_ database: Database) throws {}
+  
+  func makeNode(context: Context) throws -> Node {
+    return try Node(node: ["id": id,
+                           "modificationDate": modificationDate,
+                           "cards": cards.makeNode()])
+  }
+  
+  static func revert(_ database: Database) throws {
+    try database.delete("pixsure")
+  }
+}
+
+
+
+struct Card: Model {
+  var exists: Bool = false
+  var id: Node?
+  var modificationDate: String
   let imageURL: String
   var hotSpots: HotSpots
   
@@ -26,7 +57,6 @@ struct Pixsure: Model {
   }
   
   func makeNode(context: Context) throws -> Node {
-    
     return try Node(node: ["id": id,
                            "modificationDate": modificationDate,
                            "imageURL": imageURL,
@@ -34,7 +64,7 @@ struct Pixsure: Model {
   }
   
   static func revert(_ database: Database) throws {
-    try database.delete("Pixsures")
+    try database.delete("cards")
   }
 }
 
@@ -47,7 +77,7 @@ struct HotSpots: Model {
   var botRight: Location
   
   init(node: Node, in context: Context) throws {
-    id = try node.extract("id")
+    id = try node.extract("_id")
     topLeft = try node.extract(HotSpotLocation.topLeft.rawValue)
     topRight = try node.extract(HotSpotLocation.topRight.rawValue)
     botLeft = try node.extract(HotSpotLocation.botLeft.rawValue)
@@ -59,7 +89,8 @@ struct HotSpots: Model {
 
   
   func makeNode(context: Context) throws -> Node {
-    return try Node(node: [HotSpotLocation.topLeft.rawValue: topLeft.makeNode(),
+    return try Node(node: ["id": id,
+                           HotSpotLocation.topLeft.rawValue: topLeft.makeNode(),
                            HotSpotLocation.topRight.rawValue: topRight.makeNode(),
                            HotSpotLocation.botLeft.rawValue: botLeft.makeNode(),
                            HotSpotLocation.botMid.rawValue: botMid.makeNode(),
@@ -81,6 +112,7 @@ struct Location: Model {
   }
   
   init(node: Node, in context: Context) throws {
+    id = try node.extract("id")
     type = try node.extract("type")
     param = try node.extract("param")
   }
